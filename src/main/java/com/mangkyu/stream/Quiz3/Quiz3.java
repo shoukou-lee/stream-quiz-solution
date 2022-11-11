@@ -19,10 +19,9 @@ public class Quiz3 {
      * ex) numbers1 = [1,2,3], numbers2 =  [3,4] -> [(1,3), (1,4), (2,3), (2,4), (3,3), (3,4)]
      */
     public List<Integer[]> quiz1() {
-        List<Integer[]> collect = numbers1.stream()
+        return numbers1.stream()
                 .flatMap(n1 -> numbers2.stream().map(n2 -> new Integer[]{n1, n2}))
                 .collect(Collectors.toList());
-        return Collections.emptyList();
     }
 
     /**
