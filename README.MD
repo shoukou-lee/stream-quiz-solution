@@ -253,7 +253,6 @@ public class Student {
 또한 데이터는 Student[] stuArr에 저장되어 있다.
 
 ### 문제 6.1
-
 stuArr에서 불합격(150점 미만)한 학생의 수를 남자와 여자로 구별하여라.
 (Boolean, List<Student>)
 
